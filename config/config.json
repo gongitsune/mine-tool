@@ -1,7 +1,7 @@
 {
-  "buildDir": "C:/Users/keigo/IdeaProjects/anyonegame/build/libs",
-  "pluginDir": "C:/Users/keigo/Documents/Minecraft/AnyoneGame/server/plugins",
-  "pluginName": "anyonegame",
+  "buildDir": "Directory containing pre-built plugins",
+  "pluginDir": "minecraftServer/plugins",
+  "pluginName": "examplePlugin",
   "rconHost": "localhost",
   "rconPort": 25575,
   "rconPassword": "password"
