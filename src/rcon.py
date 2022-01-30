@@ -28,11 +28,13 @@ def disable() -> None:
     try:
         mcr.command(f"plugman unload {config.plugin_name}")
     except Exception as e:
-        print(e)
+        print(f"\033Error\033[0m: {e}")
+        connect()
 
 
 def enable() -> None:
     try:
         mcr.command(f"plugman load {config.plugin_name}")
     except Exception as e:
-        print(e)
+        print(f"\033Error\033[0m: {e}")
+        connect()
